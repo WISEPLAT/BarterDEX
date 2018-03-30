@@ -5,11 +5,9 @@ The BarterDEX application created by Komodo Platform allows trading cryptocurren
  The parent project, Komodo Platform, freely provides BarterDEX technology through open-source philosophy. BarterDEX fully realizes decentralized order matching, trade clearing, and settlement. The order
 -matching aspect uses a low-level pubkey-to-pubkey messaging protocol, and the final settlement is executed through an atomic cross-chain swap. 
 
-Komodo Platform Official Site:  https://komodoplatform.com
-Komodo BarterDEX Page :  https://www.komodoplatform.com/en/technology/barterdex
-BarterDEX Whitepaper :  https://www.komodoplatform.com/en/technology/whitepapers/BarterDEX-Whitepaper-v0.4.pdf
-
-
+[Komodo Platform Official Site](https://komodoplatform.com)  
+[Komodo BarterDEX Page](https://komodoplatform.com/decentralized-exchange)  
+[Komodo Whitepaper](https://komodoplatform.com/wp-content/uploads/2018/03/2018-03-12-Komodo-White-Paper-Full.pdf)
 
 # BarterDEX App
 
@@ -17,7 +15,7 @@ BarterDEX App includes all things required to run. You don't need to do anything
 
 It has the pre-compiled `marketmaker` bundled with it. But in any case you still wish to compile `marketmaker` yourself, you ca follow these instructions:
 
-https://github.com/SuperNETorg/komodo/wiki/Setting-up-Liquidity-Provider-(LP)-Node#installing-liquidity-provider-lp-node-on-ubuntudebian-system
+https://github.com/KomodoPlatform/KomodoPlatform/wiki/Compile-marketmaker-Binary-with-Static-nanomsg-in-Linux https://github.com/KomodoPlatform/KomodoPlatform/wiki/Compile-marketmaker-Binary-with-Static-nanomsg-in-MacOS
 
 ### Setup
 
@@ -31,7 +29,7 @@ To get started follow these steps:
 git clone https://github.com/KomodoPlatform/BarterDEX.git
 cd BarterDEX
 git pull
-git checkout v0.8
+git checkout dev
 npm install
 npm start
 ```
@@ -43,7 +41,7 @@ To update, follow these steps:
 ```shell
 cd BarterDEX
 git pull
-git checkout v0.8
+git checkout dev
 git pull
 ```
 
@@ -61,7 +59,7 @@ sudo npm install -g electron --unsafe-perm=true
 2. Start Monaize Native Wallet
 3. Wait for both Komodo and Monaize to sync 100%
 4. Start BarterDEX
-5. Select 'Monzie (MNZ) dICO' option at the login screen.
+5. Select 'Monaize (MNZ) dICO' option at the login screen.
 6. Login with `passphrase` (either pre-generated or make a new one).
 7. Look for the KMD address and send KMDs to it. Once sent, it will start reflecting there in a minute.
 8. Give the maximum price that you would like to pay for MNZ. Example: 0.15
